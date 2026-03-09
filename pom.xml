@@ -19,7 +19,7 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>7.34.2</version>
-            <scope>test</scope>
+            <scope>utils.Listener.test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
         <dependency>
@@ -32,13 +32,13 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.40.0</version>
-            <scope>test</scope>
+            <scope>utils.Listener.test</scope>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.11.0</version>
-            <scope>test</scope>
+            <scope>utils.Listener.test</scope>
         </dependency>
         <dependency>
             <groupId>com.aventstack</groupId>
@@ -53,5 +53,6 @@
         </dependency>
 
     </dependencies>
+
 
 </project>
